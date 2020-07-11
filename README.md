@@ -1,6 +1,6 @@
 # Detection-of-Person-With-or-Without-Mask
 
-This project mainly made for detecting a person and classify weather a person is weared the mask or not.
+This project is mainly made for detecting a person and classify weather a person is weared the mask or not.
 
 To use this project simply folloe folloeing steps.
 
