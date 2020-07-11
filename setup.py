@@ -9,10 +9,10 @@ def readme():
 setup(
     name="FaceMasque",
     version="1.0",
-    description="A Python package to classify weather.",
+    description="A Python package to classify weather a person is weared a mask or not.",
     long_description=readme(),
     long_description_content_type="text/markdown",
-    url="https://github.com/nikhilkumarsingh/weather-reporter",
+    url="https://github.com/Kushal0189/Detection-of-Person-With-or-Without-Mask",
     author="KUSHAL MASTER",
     author_email="kushalmaster8@gmail.com",
     license="MIT",
