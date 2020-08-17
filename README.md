@@ -2,7 +2,7 @@
 
 This project is mainly made for detecting a person and classify weather a person is weared the mask or not.
 
-To use this project simply folloe folloeing steps.
+To use this project simply follow following steps.
 
 1) Use following command in your working directory through type it in command Prompt.
    pip install FaceMasque
