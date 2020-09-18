@@ -8,7 +8,7 @@ def readme():
 
 setuptools.setup(
     name="FaceMasque",
-    version="1.0.0",
+    version="1.0.1",
     description="A Python package to classify weather a person is weared a mask or not.",
     long_description=readme(),
     long_description_content_type="text/markdown",
