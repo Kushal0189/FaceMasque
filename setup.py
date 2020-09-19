@@ -15,8 +15,8 @@ setuptools.setup(
     url="https://github.com/Kushal0189/FaceMasque",
     author="KUSHAL MASTER",
     author_email="kushalmaster8@gmail.com",
-    #data_files   = [ ("FaceMasque",  ["./FaceMasque/Copy of ultra_light_640.onnx",
-                                 #"./FaceMasque/vgg_mask.h5"])],
+    data_files   = [ ("FaceMasque",  ["./FaceMasque/Copy of ultra_light_640.onnx",
+                                 "./FaceMasque/vgg_mask.h5"])],
     packages=setuptools.find_packages(),
     include_package_data=True,
     classifiers=[
