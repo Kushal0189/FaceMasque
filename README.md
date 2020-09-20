@@ -8,8 +8,8 @@ To use this project simply follow following steps.
    pip install FaceMasque
  
 2) Now, import it in your python file.
-   import FaceMasque
+   from FaceMasque import Classfication_of_Person_with_or_without_Wearing_Mask as fm
  
 3) Simply call folloeing function and you are ready with mask detection project. 
-   detected_image = FaceMasque.mask_detection(original_image)
+   detected_image = fm.mask_detection(original_image)
    

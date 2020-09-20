@@ -8,7 +8,7 @@ def readme():
 
 setuptools.setup(
     name="FaceMasque",
-    version="1.0.2",
+    version="1.0.3",
     description="A Python package to classify weather a person is weared a mask or not.",
     long_description=readme(),
     long_description_content_type="text/markdown",
@@ -16,7 +16,7 @@ setuptools.setup(
     author="KUSHAL MASTER",
     author_email="kushalmaster8@gmail.com",
     data_files   = [ ("FaceMasque",  ["./FaceMasque/Copy of ultra_light_640.onnx",
-                                 "./FaceMasque/vgg_mask.h5"])],
+                                "./FaceMasque/vgg_mask.h5"])],
     packages=setuptools.find_packages(),
     include_package_data=True,
     classifiers=[
