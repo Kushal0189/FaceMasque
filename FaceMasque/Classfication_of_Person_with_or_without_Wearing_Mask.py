@@ -159,11 +159,6 @@ def detect_face(image):
 
 
 # In[12]:
-
-
-model = load_model('vgg_mask.h5')
-
-
 # In[23]:
 
 
@@ -175,6 +170,7 @@ def mask_detection(image):
         images = cv2.cvtColor(images,cv2.COLOR_RGB2BGR)
         images = cv2.resize(images,(224,224))
         images = images/255.0
+        model = load_model('vgg_mask.h5')
         pred = model.predict(images[np.newaxis,...])
         flag = 0
         if pred[0][0] < pred[0][1]:
