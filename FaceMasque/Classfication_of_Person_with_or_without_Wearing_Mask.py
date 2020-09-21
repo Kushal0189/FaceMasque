@@ -163,7 +163,7 @@ def detect_face(image):
 
 
 def mask_detection(image):
-    img = cv2.imread(image)
+    img = cv2.imread(image,1)
     original_img = img.copy()
     box,img_list = detect_face(img)
     for images,b in zip(img_list,box):
