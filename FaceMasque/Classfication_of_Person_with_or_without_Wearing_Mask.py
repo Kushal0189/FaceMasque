@@ -137,9 +137,9 @@ def detect_face(image):
     img = np.transpose(img, [2, 0, 1])
     img = np.expand_dims(img, axis=0)
     img = img.astype(np.float32)
-    onnx_model = onnx.load('Copy of ultra_light_640.onnx')
+    onnx_model = onnx.load('./Copy_of_ultra_light_640.onnx')
     predictor = prepare(onnx_model)
-    ort_session = ort.InferenceSession('Copy of ultra_light_640.onnx')
+    ort_session = ort.InferenceSession('./Copy_of_ultra_light_640.onnx')
     input_name = ort_session.get_inputs()[0].name
     confidences, boxes = ort_session.run(None, {input_name: img})
     h,w,_ = image.shape
@@ -170,7 +170,7 @@ def mask_detection(image):
         images = cv2.cvtColor(images,cv2.COLOR_RGB2BGR)
         images = cv2.resize(images,(224,224))
         images = images/255.0
-        model = load_model('vgg_mask.h5')
+        model = load_model('./vgg_mask.h5')
         pred = model.predict(images[np.newaxis,...])
         flag = 0
         if pred[0][0] < pred[0][1]:
