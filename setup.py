@@ -8,15 +8,15 @@ def readme():
 
 setuptools.setup(
     name="FaceMasque",
-    version="1.0.6",
+    version="1.0.5",
     description="A Python package to classify weather a person is weared a mask or not.",
     long_description=readme(),
     long_description_content_type="text/markdown",
     url="https://github.com/Kushal0189/FaceMasque",
     author="KUSHAL MASTER",
     author_email="kushalmaster8@gmail.com",
-    data_files   = [ ("FaceMasque",  ["./Copy_of_ultra_light_640.onnx",
-                                "./vgg_mask.h5"])],
+    data_files   = [ ("FaceMasque",  ["./FaceMasque/Copy_of_ultra_light_640.onnx",
+                                "./FaceMasque/vgg_mask.h5"])],
     packages=setuptools.find_packages(),
     include_package_data=True,
     classifiers=[
