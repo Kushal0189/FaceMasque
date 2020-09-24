@@ -1,1 +1,4 @@
-include README.md LICENSE
+include README.md 
+include LICENSE
+include FaceMasque/Copy_of_ultra_light_640.onnx
+include FaceMasque/vgg_mask.h5
