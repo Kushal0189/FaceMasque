@@ -20,7 +20,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     include_package_data=True,
     package_data={
-        "hackertray.data": [
+        "FaceMasque.data": [
             "Copy_of_ultra_light_640.onnx",
             "vgg_mask.h5",
         ],
