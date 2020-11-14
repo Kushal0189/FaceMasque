@@ -8,7 +8,7 @@ def readme():
 
 setuptools.setup(
     name="FaceMasque",
-    version="1.0.7",
+    version="1.0.8",
     description="A Python package to classify weather a person is weared a mask or not.",
     long_description=readme(),
     long_description_content_type="text/markdown",
@@ -19,6 +19,12 @@ setuptools.setup(
                                # "./FaceMasque/vgg_mask.h5"])],
     packages=setuptools.find_packages(),
     include_package_data=True,
+    package_data={
+        "hackertray.data": [
+            "Copy_of_ultra_light_640.onnx",
+            "vgg_mask.h5",
+        ],
+    },
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
