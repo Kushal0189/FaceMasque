@@ -35,7 +35,7 @@ setuptools.setup(
         "onnx-tf==1.3.0",
         "onnxruntime==0.5.0",
         "opencv-python==4.1.1.26",
-        "tensorflow==1.15.2",
+        "tensorflow==2.9.3",
         "keras",
     ],
     python_requires='>=3.6',
