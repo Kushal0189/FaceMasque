@@ -31,7 +31,7 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     install_requires=[
-        "onnx==1.6.0",
+        "onnx==1.13.0",
         "onnx-tf==1.3.0",
         "onnxruntime==0.5.0",
         "opencv-python==4.1.1.26",
